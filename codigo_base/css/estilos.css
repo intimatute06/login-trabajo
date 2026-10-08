@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+
+}
+
+.contenedor h1 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.contenedor-principal {
+    background-color: #0057E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedorlogin {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 14%;
+    padding-left: 26%;
+}
+
+.contenedorlogin h2{
+    font-weight: normal;
+}
+
+
+.contenedorlogin h5 {
+    margin-top: 5px;
+    color: #888;
+}
+
+.contenedorinput {
+    margin-top: 12px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.grupoemail {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: bold;
+    gap: 6px;
+}
+
+.grupopass {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: bold;
+    gap: 6px;
+}
+
+
+
+.contenedorinput input {
+    border-radius: 5px;
+    padding: 9px 9px;
+    border: none;
+}
+
+.olvidecontraseña {
+    align-self: flex-end;
+    font-size: 10px;
+    text-decoration: none;
+    color: #0057E7;
+}
+
+.boton {
+    border-radius: 7px;
+    width: 40%;
+    padding: 20px 20px;
+    border: none;
+    background-color: #0057E7;
+    color: #F7F7F7;
+    cursor: pointer;
+}
+
+.crearuser {
+    display: none;
+}
+
+
+@media (max-width:1376px) {
+        .contenedor {
+            grid-template-columns: 1fr;
+            grid-template-rows: 217px 1fr;
+        }
+
+        .contenedorlogin {
+            padding-left: 10%;
+        }
+
+        .contenedorinput {
+            width: 90%;
+        }
+
+        .grupoemail label {
+            display: none;
+        }
+
+        .grupoemail input {
+            padding: 15px 15px;
+        }
+
+        .grupopass label {
+            display: none;
+        }
+
+        .grupopass input {
+            padding: 15px 15px;
+        }
+
+        .boton {
+            margin-top: 20px;
+            width: 100%;
+            padding: 15px 20px;
+        }
+
+        .crearuser {
+            display: block;
+            text-align: center;
+            font-size: 12px;
+            color: silver;
+        }
+
+        .registro {
+            text-decoration: none;
+            color: #0057E7;
+            font-weight: bold;
+        }
+    }
+
+
+@media (max-width:1024px) {
+        .contenedor {
+            grid-template-columns: 1fr;
+            grid-template-rows: 217px 1fr;
+        }
+
+        .contenedorlogin {
+            padding-left: 10%;
+        }
+
+        .contenedorinput {
+            width: 90%;
+        }
+
+        .grupoemail label {
+            display: none;
+        }
+
+        .grupoemail input {
+            padding: 15px 15px;
+        }
+
+        .grupopass label {
+            display: none;
+        }
+
+        .grupopass input {
+            padding: 15px 15px;
+        }
+
+        .boton {
+            margin-top: 20px;
+            width: 100%;
+            padding: 15px 20px;
+        }
+
+        .crearuser {
+            display: block;
+            text-align: center;
+            font-size: 12px;
+            color: silver;
+        }
+
+        .registro {
+            text-decoration: none;
+            color: #0057E7;
+            font-weight: bold;
+        }
+    }
+
+@media (max-width:852px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        
+    }
+
+    .contenedor-principal {
+        display: none;
+    }
+
+    .contenedorlogin {
+        padding-left: 8%;
+    }
+
+    .contenedorinput {
+        width: 90%;
+    }
+
+    .grupoemail label{
+        display: none;
+    }
+
+    .grupoemail input{
+        padding: 15px 15px;
+    }
+
+    .grupopass label{
+        display: none;
+    }
+    .grupopass input{
+        padding: 15px 15px;
+    }
+
+    .boton {
+        margin-top: 20px;
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .crearuser {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        color: silver;
+    }
+
+    .registro {
+        text-decoration: none;
+        color: #0057E7;
+        font-weight: bold;
+    }
+
+    
+
+}
